@@ -9,6 +9,15 @@ $ cd speed_test
 $ python3 speed_test.py
 ```
 
+### Running inside Docker Container
+
+```sh
+$ git clone https://github.com/iamjeerge/speed_test.git
+$ cd speed_test
+$ sudo docker build -t speed_test .
+$ sudo docker run -it speed_test speed_test.py
+```
+
 License
 ----
 
@@ -16,6 +25,3 @@ MIT
 
 
 **Free Software, Hell Yeah!**
-
-
-
